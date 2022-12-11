@@ -1,0 +1,40 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+.header{
+    margin-bottom: 20px;
+    height: 100px;
+    background-color: #6aa84f;
+}
+
+.navigation{
+
+    width: 22%;
+    height: 500px;
+    background-color:#6fa8dc;
+    display: inline-block;
+}
+
+.main{
+    padding-top:20px;
+    width: 73%;
+    height: 560px;
+    background-color:#e06666;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.subcontent{
+    width: 28%;
+    height: 400px;
+    background-color:#ffd966;
+    display: inline-block;
+}
+
+.advertisement{
+    margin: 20px 25px;
+    height: 100px;
+    background-color:#b4a7d6;
+    display: block;
+}
