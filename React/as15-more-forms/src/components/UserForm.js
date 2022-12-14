@@ -70,8 +70,9 @@ const handlePassword = (e) => {
 
 const handleConfirmPassword = (e) => {
     setConfirmPassword(e.target.value);
-    if(e.target.value.length != password) {
+    if(e.target.value != password) {
         setConfirmPasswordError("Password must match.");
+        console.log(password);
     }
     else {
         setConfirmPasswordError("");
@@ -81,11 +82,10 @@ const handleConfirmPassword = (e) => {
 
     return (
         <div>
-            <h1>ggggggggggggggggggggggggggggggggg</h1>
             <form onSubmit={createUser}>
                 {
                     hasBeenSubmitted ?
-                    <p>Thank you forsubmitting the for.</p> :
+                    <p>Thank you forsubmitting the form.</p> :
                     <p>Welcome, please fill this form:</p>
                 }
 
@@ -155,5 +155,4 @@ const handleConfirmPassword = (e) => {
 
 }
 
-
-export default UserForm;
+export default UserForm
